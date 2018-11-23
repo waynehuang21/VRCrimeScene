@@ -1,0 +1,1 @@
+Do not replace the origin object with prefabs from here, copy values or canvas into the original object.

@@ -1,0 +1,202 @@
+fileFormatVersion: 2
+guid: 2ac4d17b43a36d94c97e4d2498905564
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: LineDoNotCros_3825.Shape
+    100002: LineDoNotCros_3825_dup_2
+    100004: LineDoNotCros_3825_dup_2.Shape
+    100006: LineDoNotCros_3825_dup_3
+    100008: LineDoNotCros_3825_dup_3.Shape
+    100010: LineDoNotCros_3825_dup_4
+    100012: LineDoNotCros_3825_dup_4.Shape
+    100014: LinePole_834
+    100016: LinePole_834.Shape
+    100018: LinePoleFoot_846
+    100020: LinePoleFoot_846.Shape
+    100022: LinePoleFootR_846
+    100024: LinePoleFootR_846.Shape
+    100026: LinePoleFootSA_846
+    100028: LinePoleFootSA_846.Shape
+    100030: LinePoleFootSA_846_dup_2
+    100032: LinePoleFootSA_846_dup_2.Shape
+    100034: LinePoleR_834
+    100036: LinePoleR_834.Shape
+    100038: LinePoleSA_834
+    100040: LinePoleSA_834.Shape
+    100042: LinePoleSA_834_dup_2
+    100044: LinePoleSA_834_dup_2.Shape
+    100046: Lineround270_1_544
+    100048: Lineround270_1_544.Shape
+    100050: Lineround270_2_544
+    100052: Lineround270_2_544.Shape
+    100054: Lineround270_3_544
+    100056: Lineround270_3_544.Shape
+    100058: Lineround270_4_544
+    100060: Lineround270_4_544.Shape
+    100062: //RootNode
+    400000: LineDoNotCros_3825.Shape
+    400002: LineDoNotCros_3825_dup_2
+    400004: LineDoNotCros_3825_dup_2.Shape
+    400006: LineDoNotCros_3825_dup_3
+    400008: LineDoNotCros_3825_dup_3.Shape
+    400010: LineDoNotCros_3825_dup_4
+    400012: LineDoNotCros_3825_dup_4.Shape
+    400014: LinePole_834
+    400016: LinePole_834.Shape
+    400018: LinePoleFoot_846
+    400020: LinePoleFoot_846.Shape
+    400022: LinePoleFootR_846
+    400024: LinePoleFootR_846.Shape
+    400026: LinePoleFootSA_846
+    400028: LinePoleFootSA_846.Shape
+    400030: LinePoleFootSA_846_dup_2
+    400032: LinePoleFootSA_846_dup_2.Shape
+    400034: LinePoleR_834
+    400036: LinePoleR_834.Shape
+    400038: LinePoleSA_834
+    400040: LinePoleSA_834.Shape
+    400042: LinePoleSA_834_dup_2
+    400044: LinePoleSA_834_dup_2.Shape
+    400046: Lineround270_1_544
+    400048: Lineround270_1_544.Shape
+    400050: Lineround270_2_544
+    400052: Lineround270_2_544.Shape
+    400054: Lineround270_3_544
+    400056: Lineround270_3_544.Shape
+    400058: Lineround270_4_544
+    400060: Lineround270_4_544.Shape
+    400062: //RootNode
+    2100000: PoleFoot
+    2100002: PoliceLine
+    2100004: PoleTop
+    2100006: PoleBody
+    2300000: LineDoNotCros_3825.Shape
+    2300002: LineDoNotCros_3825_dup_2.Shape
+    2300004: LineDoNotCros_3825_dup_3.Shape
+    2300006: LineDoNotCros_3825_dup_4.Shape
+    2300008: LinePole_834.Shape
+    2300010: LinePoleFoot_846.Shape
+    2300012: LinePoleFootR_846.Shape
+    2300014: LinePoleFootSA_846.Shape
+    2300016: LinePoleFootSA_846_dup_2.Shape
+    2300018: LinePoleR_834.Shape
+    2300020: LinePoleSA_834.Shape
+    2300022: LinePoleSA_834_dup_2.Shape
+    2300024: Lineround270_1_544.Shape
+    2300026: Lineround270_2_544.Shape
+    2300028: Lineround270_3_544.Shape
+    2300030: Lineround270_4_544.Shape
+    3300000: LineDoNotCros_3825.Shape
+    3300002: LineDoNotCros_3825_dup_2.Shape
+    3300004: LineDoNotCros_3825_dup_3.Shape
+    3300006: LineDoNotCros_3825_dup_4.Shape
+    3300008: LinePole_834.Shape
+    3300010: LinePoleFoot_846.Shape
+    3300012: LinePoleFootR_846.Shape
+    3300014: LinePoleFootSA_846.Shape
+    3300016: LinePoleFootSA_846_dup_2.Shape
+    3300018: LinePoleR_834.Shape
+    3300020: LinePoleSA_834.Shape
+    3300022: LinePoleSA_834_dup_2.Shape
+    3300024: Lineround270_1_544.Shape
+    3300026: Lineround270_2_544.Shape
+    3300028: Lineround270_3_544.Shape
+    3300030: Lineround270_4_544.Shape
+    4300000: LinePoleFoot_846.Shape
+    4300002: Lineround270_1_544.Shape
+    4300004: LinePole_834.Shape
+    4300006: LinePoleFootR_846.Shape
+    4300008: LineDoNotCros_3825_dup_2.Shape
+    4300010: Lineround270_2_544.Shape
+    4300012: LinePoleR_834.Shape
+    4300014: LineDoNotCros_3825_dup_3.Shape
+    4300016: Lineround270_4_544.Shape
+    4300018: LinePoleFootSA_846.Shape
+    4300020: LinePoleSA_834.Shape
+    4300022: LineDoNotCros_3825_dup_4.Shape
+    4300024: Lineround270_3_544.Shape
+    4300026: LinePoleFootSA_846_dup_2.Shape
+    4300028: LinePoleSA_834_dup_2.Shape
+    4300030: LineDoNotCros_3825.Shape
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

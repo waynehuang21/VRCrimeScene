@@ -1,0 +1,31 @@
+$ 15,-
+
+Crime Scene props
+
+-----------------
+Crime scene 3D models.
+
+Murder and mayhem!
+
+Use these props to keep the crowd clear!
+---------------------------
+
+3DstMAX 2012 Scene.
+Mental Ray Renderer
+
+Modifier stack still intact.
+Cord is animatable/ moveable!
+
+Model animated.
+Textures included.
+
+Polygon based.
+Textured: Yes
+UV Unwrap: No
+Textures included: Yes
+
+Poly:  26460 (total)
+Vert:  26829 (total)
+
+tags:
+crime criminal investigator justice cop police science medical other
