@@ -9479,6 +9479,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   evidencePopup: {fileID: 824621011}
+  evidence: {fileID: 2074743305}
   overlayPopup: {fileID: 2103027942}
 --- !u!114 &1064522899
 MonoBehaviour:
@@ -22235,9 +22236,24 @@ Prefab:
       propertyPath: popup
       value: 
       objectReference: {fileID: 824621011}
+    - target: {fileID: 114210973772470440, guid: 0309e319da709ca4f89a87e5279553f4,
+        type: 2}
+      propertyPath: evidencePopup
+      value: 
+      objectReference: {fileID: 824621011}
+    - target: {fileID: 114210973772470440, guid: 0309e319da709ca4f89a87e5279553f4,
+        type: 2}
+      propertyPath: overlayPopup
+      value: 
+      objectReference: {fileID: 2103027942}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0309e319da709ca4f89a87e5279553f4, type: 2}
   m_IsPrefabAsset: 0
+--- !u!1 &2074743305 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1606643881936190, guid: 0309e319da709ca4f89a87e5279553f4,
+    type: 2}
+  m_PrefabInternal: {fileID: 2074743304}
 --- !u!1001 &2078323003
 Prefab:
   m_ObjectHideFlags: 0

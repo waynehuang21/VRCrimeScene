@@ -8,6 +8,7 @@ public class ScanEvidence : MonoBehaviour
 {
 
     public GameObject evidencePopup;
+    public GameObject evidence;
     public GameObject overlayPopup;
 
     // Use this for initialization
@@ -22,6 +23,7 @@ public class ScanEvidence : MonoBehaviour
         if (SteamVR_Input._default.inActions.GrabPinch.GetStateDown(hand.handType))
         {
             evidencePopup.SetActive(false);
+            evidence.GetComponent<Popup>().notScanned = false;
             overlayPopup.SetActive(true);
         }
 

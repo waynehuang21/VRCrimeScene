@@ -7,7 +7,8 @@ using Valve.VR.InteractionSystem;
 public class Popup : MonoBehaviour
 {
 
-    public GameObject popup;
+    public GameObject evidencePopup;
+    public bool notScanned = true;
 
     // Use this for initialization
     void Start()
@@ -18,11 +19,15 @@ public class Popup : MonoBehaviour
     // Update is called once per frame
     void OnAttachedToHand(Hand hand)
     {
-        popup.SetActive(true);
+        if (notScanned) {
+            evidencePopup.SetActive(true);
+        }
     }
 
     void OnDetachedFromHand(Hand hand)
     {
-        popup.SetActive(false);
+        if (notScanned) {
+            evidencePopup.SetActive(false);
+        }
     }
 }
