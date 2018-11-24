@@ -28,7 +28,7 @@ GameObject:
   - component: {fileID: 114968136476039294}
   - component: {fileID: 114210973772470440}
   m_Layer: 0
-  m_Name: WayneReset
+  m_Name: WayneResetObject
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -141,7 +141,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 529b1e395d08176478585ab25d7aab4b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  popup: {fileID: 0}
+  evidencePopup: {fileID: 0}
+  notScanned: 1
 --- !u!114 &114669190523070840
 MonoBehaviour:
   m_ObjectHideFlags: 1

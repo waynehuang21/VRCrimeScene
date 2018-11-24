@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using Valve.VR;
 using Valve.VR.InteractionSystem;
+using UnityEngine.UI;
 
 public class ScanEvidence : MonoBehaviour
 {
@@ -10,6 +11,7 @@ public class ScanEvidence : MonoBehaviour
     public GameObject evidencePopup;
     public GameObject evidence;
     public GameObject overlayPopup;
+
 
     // Use this for initialization
     void Start()
