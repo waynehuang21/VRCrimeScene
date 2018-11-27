@@ -338,8 +338,6 @@ D:\VRForensic\VRCrimeScene\VR Crime Scene\obj\Debug\Assembly-CSharp.csproj.CoreC
 D:\VRForensic\VRCrimeScene\VR Crime Scene\obj\Debug\Assembly-CSharp.csproj.CopyComplete
 D:\VRForensic\VRCrimeScene\VR Crime Scene\obj\Debug\Assembly-CSharp.dll
 D:\VRForensic\VRCrimeScene\VR Crime Scene\obj\Debug\Assembly-CSharp.pdb
-D:\VRForensic\VRCrimeScene\VR Crime Scene\Temp\bin\Debug\UnityEditor.UI.dll
-D:\VRForensic\VRCrimeScene\VR Crime Scene\Temp\bin\Debug\UnityEditor.UI.xml
 C:\COMP 3900 Project\VR Crime Scene\Temp\bin\Debug\Assembly-CSharp.dll
 C:\COMP 3900 Project\VR Crime Scene\Temp\bin\Debug\Assembly-CSharp.pdb
 C:\COMP 3900 Project\VR Crime Scene\Temp\bin\Debug\Boo.Lang.dll

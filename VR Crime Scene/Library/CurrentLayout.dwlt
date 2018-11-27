@@ -109,7 +109,7 @@ MonoBehaviour:
   m_MinSize: {x: 887, y: 492}
   m_MaxSize: {x: 16012, y: 14042}
   vertical: 0
-  controlID: 112
+  controlID: 120
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -133,7 +133,7 @@ MonoBehaviour:
   m_MinSize: {x: 610, y: 492}
   m_MaxSize: {x: 12010, y: 14042}
   vertical: 1
-  controlID: 113
+  controlID: 121
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -158,7 +158,7 @@ MonoBehaviour:
   m_MinSize: {x: 610, y: 221}
   m_MaxSize: {x: 12010, y: 4021}
   vertical: 0
-  controlID: 114
+  controlID: 122
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -392,24 +392,24 @@ MonoBehaviour:
     height: 598
   m_PersistentViewDataDictionary: {fileID: 0}
   m_TreeViewState:
-    scrollPos: {x: 0, y: 223.99963}
-    m_SelectedIDs: 50200000
-    m_LastClickedID: 8272
-    m_ExpandedIDs: 6af8ffffecfafffffcfaffff00fbffff02fbffffe4fbffff00000000c8200000f020000030210000882300008225000002260000
+    scrollPos: {x: 0, y: 720}
+    m_SelectedIDs: 3e10fcff
+    m_LastClickedID: -257986
+    m_ExpandedIDs: a05cfdfff4c5ffff18c6ffffecfafffffcfaffff00fbffff02fbffffe4fbffff0000000050200000f02000001c210000b62200008823000002260000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: Canvas
-      m_OriginalName: Canvas
+      m_Name: 
+      m_OriginalName: 
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 9602
+      m_UserData: 0
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 0
+      m_OriginalEventType: 11
       m_IsRenamingFilename: 0
       m_ClientGUIView: {fileID: 8}
     m_SearchString: 
@@ -445,14 +445,14 @@ MonoBehaviour:
     height: 598
   m_PersistentViewDataDictionary: {fileID: 0}
   m_SceneLighting: 1
-  lastFramingTime: 5231.14306938167
+  lastFramingTime: 2441.4887590010044
   m_2DMode: 0
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 0.09663367, y: 0.8772977, z: -0.9124517}
+    m_Target: {x: 0.2068634, y: 0.79171443, z: 0.51096386}
     speed: 2
-    m_Value: {x: 0.09663367, y: 0.8772977, z: -0.9124517}
+    m_Value: {x: 0.2068634, y: 0.79171443, z: 0.51096386}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -472,25 +472,25 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
     yGrid:
-      m_Target: 1
+      m_Target: 0
       speed: 2
-      m_Value: 1
+      m_Value: 0
     zGrid:
       m_Target: 0
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: -0.01934639, y: -0.9794287, z: 0.16459885, w: -0.115118615}
+    m_Target: {x: -0.048480257, y: 0.736892, z: -0.053148113, w: -0.6721731}
     speed: 2
-    m_Value: {x: -0.019346392, y: -0.97942877, z: 0.16459887, w: -0.11511862}
+    m_Value: {x: -0.048480224, y: 0.73689145, z: -0.053148076, w: -0.6721726}
   m_Size:
-    m_Target: 1.9171121
+    m_Target: 0.3598412
     speed: 2
-    m_Value: 1.9171121
+    m_Value: 0.3598412
   m_Ortho:
-    m_Target: 0
+    m_Target: 1
     speed: 2
-    m_Value: 0
+    m_Value: 1
   m_ShowGlobalGrid: 1
   m_LastSceneViewRotation: {x: 0.023721663, y: -0.9745154, z: 0.12523519, w: 0.18458964}
   m_LastSceneViewOrtho: 0
@@ -560,19 +560,19 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/DNA profile pictures
+    - Assets/Scripts
   m_ViewMode: 1
   m_StartGridSize: 57
   m_LastFolders:
-  - Assets/DNA profile pictures
+  - Assets/Scripts
   m_LastFoldersGridSize: 57
   m_LastProjectPath: D:\VRForensic\VRCrimeScene\VR Crime Scene
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 79}
-    m_SelectedIDs: 58130000
-    m_LastClickedID: 4952
+    scrollPos: {x: 0, y: 126}
+    m_SelectedIDs: 7a1c0000
+    m_LastClickedID: 7290
     m_ExpandedIDs: 000000009e0b0000da0f0000b0120000f01200005813000024140000c8170000e4180000701a0000d81a0000f81a00007c1c0000de1c000006530000085300000a5300000c5300000e53000010530000125300001453000016530000185300001a5300001c5300001e53000020530000225300002453000026530000285300002a5300002c5300002e53000030530000325300003453000036530000385300003a5300003c53000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0

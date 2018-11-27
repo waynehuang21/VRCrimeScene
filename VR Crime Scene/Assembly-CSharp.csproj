@@ -68,9 +68,11 @@
     <Compile Include="Assets\Scripts\ButtonHandler.cs" />
     <Compile Include="Assets\Scripts\MagicLightSource.cs" />
     <Compile Include="Assets\Scripts\MenuCollide.cs" />
+    <Compile Include="Assets\Scripts\MenuHandler.cs" />
     <Compile Include="Assets\Scripts\PopupHandler.cs" />
     <Compile Include="Assets\Scripts\Reset.cs" />
     <Compile Include="Assets\Scripts\ScanEvidence.cs" />
+    <Compile Include="Assets\Scripts\SelectMenuItem.cs" />
     <Compile Include="Assets\Scripts\ToggleLights.cs" />
     <Compile Include="Assets\Scripts\ToggleUI.cs" />
     <Compile Include="Assets\SteamVR\Extras\SteamVR_GazeTracker.cs" />
