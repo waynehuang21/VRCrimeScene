@@ -45,28 +45,25 @@ public class PopupHandler : MonoBehaviour
         Throwable script = gameObject.GetComponent<Throwable>();
         if (script == null)
         {
-            if (SteamVR_Input._default.inActions.GrabPinch.GetStateDown(hand.handType))
+            if (flag)
             {
-                if (flag)
+                if (notScanned)
                 {
-                    if (notScanned)
+                    evidencePopup.SetActive(true);
+                    for (int i = 0; i < evidencePopup.transform.childCount; i++)
                     {
-                        evidencePopup.SetActive(true);
-                        for (int i = 0; i < evidencePopup.transform.childCount; i++)
-                        {
-                            evidencePopup.transform.GetChild(i).gameObject.SetActive(false);
-                        }
-                        evidenceCanvas.SetActive(true);
-                        flag = !flag;
+                        evidencePopup.transform.GetChild(i).gameObject.SetActive(false);
                     }
+                    evidenceCanvas.SetActive(true);
+                    flag = !flag;
                 }
-                else
+            }
+            else
+            {
+                if (notScanned)
                 {
-                    if (notScanned)
-                    {
-                        evidencePopup.SetActive(false);
-                        flag = !flag;
-                    }
+                    evidencePopup.SetActive(false);
+                    flag = !flag;
                 }
             }
         }

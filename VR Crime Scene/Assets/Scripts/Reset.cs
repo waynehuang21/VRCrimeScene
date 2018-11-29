@@ -16,10 +16,6 @@ public class Reset : MonoBehaviour
     // Update is called once per frame
     void HandHoverUpdate(Hand hand)
     {
-        if (SteamVR_Input._default.inActions.GrabPinch.GetStateDown(hand.handType))
-        {
-            UnityEngine.SceneManagement.SceneManager.LoadSceneAsync(UnityEngine.SceneManagement.SceneManager.GetActiveScene().buildIndex);
-        }
-
+        UnityEngine.SceneManagement.SceneManager.LoadSceneAsync(UnityEngine.SceneManagement.SceneManager.GetActiveScene().buildIndex);
     }
 }

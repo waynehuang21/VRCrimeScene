@@ -20,11 +20,8 @@ public class SelectMenuItem : MonoBehaviour
     // Update is called once per frame
     void HandHoverUpdate(Hand hand)
     {
-        if (SteamVR_Input._default.inActions.GrabPinch.GetStateDown(hand.handType))
-        {
-            menuPage.SetActive(false);
-            comparisonPage.SetActive(true);
-        }
+        menuPage.SetActive(false);
+        comparisonPage.SetActive(true);
 
     }
 }

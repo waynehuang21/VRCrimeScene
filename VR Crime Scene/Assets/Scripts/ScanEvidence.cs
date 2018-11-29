@@ -9,6 +9,7 @@ public class ScanEvidence : MonoBehaviour
 {
 
     public GameObject evidencePopup;
+    public GameObject collectedPopup;
     public GameObject evidence;
     public GameObject overlayPopup;
 
@@ -22,12 +23,9 @@ public class ScanEvidence : MonoBehaviour
     // Update is called once per frame
     void HandHoverUpdate(Hand hand)
     {
-        if (SteamVR_Input._default.inActions.GrabPinch.GetStateDown(hand.handType))
-        {
-            evidencePopup.SetActive(false);
-            evidence.GetComponent<PopupHandler>().notScanned = false;
-            overlayPopup.SetActive(true);
-        }
-
+        evidencePopup.SetActive(false);
+        collectedPopup.SetActive(true);
+        evidence.GetComponent<PopupHandler>().notScanned = false;
+        overlayPopup.SetActive(true);
     }
 }
