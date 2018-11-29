@@ -18,19 +18,16 @@ public class ToggleLights : MonoBehaviour
 
     }
 
-    void OnAttachedToHand(Hand hand)
+    // Update is called once per frame
+    void HandAttachedUpdate(Hand hand)
     {
-        roomLight.SetActive(lightStatus);
-        flashLight.SetActive(!lightStatus);
-        hiddenObjects.SetActive(!lightStatus);
-        lightStatus = !lightStatus;
-    }
+        if (SteamVR_Input._default.inActions.GrabPinch.GetStateDown(hand.handType))
+        {
+            roomLight.SetActive(lightStatus);
+            flashLight.SetActive(!lightStatus);
+            hiddenObjects.SetActive(!lightStatus);
+            lightStatus = !lightStatus;
+        }
 
-    void OnDetachedFromHand(Hand hand)
-    {
-        roomLight.SetActive(lightStatus);
-        flashLight.SetActive(!lightStatus);
-        hiddenObjects.SetActive(!lightStatus);
-        lightStatus = !lightStatus;
     }
 }
