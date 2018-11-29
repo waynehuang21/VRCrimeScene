@@ -9,30 +9,27 @@ public class MenuCollide : MonoBehaviour {
     public GameObject uiLayer1p1;
     public GameObject uiLayer1p2;
     public GameObject uiLayer1p3;
+
     public GameObject uiLayer2p1t1;
     public GameObject uiLayer2p1t2;
     public GameObject uiLayer2p1t3;
     public GameObject uiLayer2p1t4;
     public GameObject uiLayer2p1t5;
-    public GameObject uiLayer2p1t6;
-    public GameObject uiLayer2p1t7;
-    public GameObject uiLayer2p1t8;
-    public GameObject uiLayer2p1t9;
+
+
     private bool showUI = false;
     //public Hand hand;
 
     // Use this for initialization
     void Start () {
-        // hand = gameObject.GetComponent<Hand>();
+
         uiLayer2p1t1.SetActive(false);
         uiLayer2p1t2.SetActive(false);
         uiLayer2p1t3.SetActive(false);
         uiLayer2p1t4.SetActive(false);
         uiLayer2p1t5.SetActive(false);
-        uiLayer2p1t6.SetActive(false);
-        uiLayer2p1t7.SetActive(false);
-        uiLayer2p1t8.SetActive(false);
-        uiLayer2p1t9.SetActive(false);
+
+
     }
 	
 	// Update is called once per frame
@@ -59,10 +56,8 @@ public class MenuCollide : MonoBehaviour {
             uiLayer2p1t3.SetActive(true);
             uiLayer2p1t4.SetActive(true);
             uiLayer2p1t5.SetActive(true);
-            uiLayer2p1t6.SetActive(true);
-            uiLayer2p1t7.SetActive(true);
-            uiLayer2p1t8.SetActive(true);
-            uiLayer2p1t9.SetActive(true);
+
+
         }
 
     }
