@@ -21,7 +21,7 @@ public class ScanEvidence : MonoBehaviour
     }
 
     // Update is called once per frame
-    void HandHoverUpdate(Hand hand)
+    void OnHandHoverBegin(Hand hand)
     {
         evidencePopup.SetActive(false);
         collectedPopup.SetActive(true);

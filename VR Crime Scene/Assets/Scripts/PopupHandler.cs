@@ -10,7 +10,6 @@ public class PopupHandler : MonoBehaviour
     public GameObject evidencePopup;
     public GameObject evidenceCanvas;
     public bool notScanned = true;
-    private bool flag = true;
 
     // Use this for initialization
     void Start()
@@ -40,31 +39,31 @@ public class PopupHandler : MonoBehaviour
         }
     }
 
-    void HandHoverUpdate(Hand hand)
+    void OnHandHoverBegin(Hand hand)
     {
         Throwable script = gameObject.GetComponent<Throwable>();
         if (script == null)
         {
-            if (flag)
+            if (notScanned)
             {
-                if (notScanned)
+                evidencePopup.SetActive(true);
+                for (int i = 0; i < evidencePopup.transform.childCount; i++)
                 {
-                    evidencePopup.SetActive(true);
-                    for (int i = 0; i < evidencePopup.transform.childCount; i++)
-                    {
-                        evidencePopup.transform.GetChild(i).gameObject.SetActive(false);
-                    }
-                    evidenceCanvas.SetActive(true);
-                    flag = !flag;
+                    evidencePopup.transform.GetChild(i).gameObject.SetActive(false);
                 }
-            }
-            else
+                evidenceCanvas.SetActive(true);
+            }       
+        }
+    }
+
+    void OnHandHoverEnd(Hand hand)
+    {
+        Throwable script = gameObject.GetComponent<Throwable>();
+        if (script == null)
+        {
+            if (notScanned)
             {
-                if (notScanned)
-                {
-                    evidencePopup.SetActive(false);
-                    flag = !flag;
-                }
+                evidencePopup.SetActive(false);
             }
         }
     }

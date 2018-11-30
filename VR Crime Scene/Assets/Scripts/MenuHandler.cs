@@ -18,7 +18,10 @@ public class MenuHandler : MonoBehaviour {
     // Update is called once per frame
     void Update()
     {
-        menu.SetActive(flag);
-        flag = !flag;
+        if (SteamVR_Input._default.inActions.Teleport.GetStateDown(hand.handType))
+        {
+            menu.SetActive(flag);
+            flag = !flag;
+        }
     }
 }

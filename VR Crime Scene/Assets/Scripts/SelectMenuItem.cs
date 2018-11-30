@@ -18,7 +18,7 @@ public class SelectMenuItem : MonoBehaviour
     }
 
     // Update is called once per frame
-    void HandHoverUpdate(Hand hand)
+    void OnHandHoverBegin(Hand hand)
     {
         menuPage.SetActive(false);
         comparisonPage.SetActive(true);

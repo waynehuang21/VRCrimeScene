@@ -14,7 +14,7 @@ public class Reset : MonoBehaviour
     }
 
     // Update is called once per frame
-    void HandHoverUpdate(Hand hand)
+    void OnHandHoverBegin(Hand hand)
     {
         UnityEngine.SceneManagement.SceneManager.LoadSceneAsync(UnityEngine.SceneManagement.SceneManager.GetActiveScene().buildIndex);
     }

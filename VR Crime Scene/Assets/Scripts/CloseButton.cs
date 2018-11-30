@@ -18,7 +18,7 @@ public class CloseButton : MonoBehaviour
     }
 
     // Update is called once per frame
-    void HandHoverUpdate(Hand hand)
+    void OnHandHoverBegin(Hand hand)
     {
         closePopup.SetActive(false);
     }
