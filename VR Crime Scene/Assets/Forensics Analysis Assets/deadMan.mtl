@@ -1,0 +1,247 @@
+newmtl Face
+d 1
+Kd 1 1 1
+map_Kd /Maps/G8MBaseFaceMapD01_1001.jpg
+
+newmtl Lips
+d 1
+Kd 1 1 1
+map_Kd /Maps/G8MBaseFaceMapD01_1001.jpg
+
+newmtl Teeth
+d 1
+Kd 1 1 1
+map_Kd /Maps/G8MBaseMouthMapD_1005.jpg
+
+newmtl Torso
+d 1
+Kd 1 1 1
+map_Kd /Maps/G8MBaseTorsoMapD_1002.jpg
+
+newmtl Ears
+d 1
+Kd 1 1 1
+map_Kd /Maps/G8MBaseFaceMapD01_1001.jpg
+
+newmtl Legs
+d 1
+Kd 1 1 1
+map_Kd /Maps/G8MBaseLegsMapD_1003.jpg
+
+newmtl EyeSocket
+d 1
+Kd 1 1 1
+map_Kd /Maps/G8MBaseFaceMapD01_1001.jpg
+
+newmtl Mouth
+d 1
+Kd 1 1 1
+map_Kd /Maps/G8MBaseMouthMapD_1005.jpg
+
+newmtl Arms
+d 1
+Kd 1 1 1
+map_Kd /Maps/G8MBaseArmsMapD_1004.jpg
+
+newmtl Pupils
+d 1
+Kd 1 1 1
+map_Kd /Maps/G8MBaseEyesMap02D_1007.jpg
+
+newmtl EyeMoisture
+d 0.995
+Kd 1 1 1
+
+newmtl Fingernails
+d 1
+Kd 1 1 1
+map_Kd /Maps/G8MBaseArmsMapD_1004.jpg
+
+newmtl Cornea
+d 0.995
+Kd 1 1 1
+
+newmtl Irises
+d 1
+Kd 1 1 1
+map_Kd /Maps/G8MBaseEyesMap02D_1007.jpg
+
+newmtl Sclera
+d 1
+Kd 1 1 1
+map_Kd /Maps/G8MBaseEyesMap02D_1007.jpg
+
+newmtl Toenails
+d 1
+Kd 1 1 1
+map_Kd /Maps/G8MBaseLegsMapD_1003.jpg
+
+newmtl EyeMoisture_Genesis_8_Male_Eyelashes
+d 0
+Kd 1 1 1
+
+newmtl Eyelashes
+d 1
+Kd 0.27058825 0.23137255 0.1882353
+map_D /ConvertedMaps/G8MBaseEyelashesMapTR_1006.tif
+
+newmtl Cap
+d 1
+Ns 1
+Ni 0
+Ka 0 0 0
+Kd 0.80000001 0.80000001 0.80000001
+Ks 0 0 0
+Km 0
+map_Kd /Maps/ArmaniHairCapTex01.jpg
+map_D /ConvertedMaps/ArmaniHairCapTR.tif
+
+newmtl SidesUnder
+d 1
+Kd 0.80000001 0.80000001 0.80000001
+map_Kd /Maps/ArmaniHairStrandsTex01.jpg
+map_D /ConvertedMaps/ArmaniHairTrans.tif
+
+newmtl TopBack
+d 1
+Kd 0.80000001 0.80000001 0.80000001
+map_Kd /Maps/ArmaniHairStrandsTex01.jpg
+map_D /ConvertedMaps/ArmaniHairTrans.tif
+
+newmtl Neck
+d 1
+Kd 0.80000001 0.80000001 0.80000001
+map_Kd /Maps/ArmaniHairStrandsTex01.jpg
+map_D /ConvertedMaps/ArmaniHairTrans.tif
+
+newmtl Top
+d 1
+Kd 0.80000001 0.80000001 0.80000001
+map_Kd /Maps/ArmaniHairStrandsTex01.jpg
+map_D /ConvertedMaps/ArmaniHairTrans.tif
+
+newmtl Thin
+d 1
+Kd 0.80000001 0.80000001 0.80000001
+map_Kd /Maps/ArmaniHairThinTex01.jpg
+map_D /ConvertedMaps/ArmaniHairThinTrans.tif
+
+newmtl Sides
+d 1
+Kd 0.80000001 0.80000001 0.80000001
+map_Kd /Maps/ArmaniHairStrandsTex01.jpg
+map_D /ConvertedMaps/ArmaniHairTrans.tif
+
+newmtl MuscleShirt
+d 1
+Kd 0.75294119 0.75294119 0.75294119
+map_Kd /Maps/MuscleShirt_BaseColor.jpg
+
+newmtl Boxers
+d 1
+Ns 1
+Ni 0
+Ka 0 0 0
+Kd 0.75294119 0.75294119 0.75294119
+Ks 0.60000002 0.60000002 0.60000002
+Km 0
+map_Kd /Maps/Boxers_BaseColor.jpg
+
+newmtl BoxersWaistband
+d 1
+Ns 1
+Ni 0
+Ka 0 0 0
+Kd 0.75294119 0.75294119 0.75294119
+Ks 0.60000002 0.60000002 0.60000002
+Km 0
+map_Kd /Maps/Boxers_BaseColor.jpg
+
+newmtl T_Shirt
+d 1
+Kd 0.75294119 0.75294119 0.75294119
+map_Kd /Maps/T_Shirt_BaseColor.jpg
+
+newmtl Blood
+d 1
+Ns 1
+Ni 0
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.98823529 0.98823529 0.98823529
+Km 0.00587156
+map_Kd /Maps/BLOODPL01a.jpg
+map_D /ConvertedMaps/BloodPlOp.tif
+map_Bump /ConvertedMaps/BloodPl_B_R.tif
+
+newmtl Blood_CSMeshBlood_(2)
+d 1
+Ns 1
+Ni 0
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.98823529 0.98823529 0.98823529
+Km 0.00587156
+map_Kd /Maps/BLOODPL01a.jpg
+map_D /ConvertedMaps/BloodPlOp.tif
+map_Bump /ConvertedMaps/BloodPl_B_R.tif
+
+newmtl Blood_CSMeshBlood_(3)
+d 1
+Ns 1
+Ni 0
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.98823529 0.98823529 0.98823529
+Km 0.00587156
+map_Kd /Maps/BLOODPL01a.jpg
+map_D /ConvertedMaps/BloodPlOp.tif
+map_Bump /ConvertedMaps/BloodPl_B_R.tif
+
+newmtl Blood_CSMeshBlood_(4)
+d 1
+Ns 1
+Ni 0
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.98823529 0.98823529 0.98823529
+Km 0.00587156
+map_Kd /Maps/BLOODPL01a.jpg
+map_D /ConvertedMaps/BloodPlOp.tif
+map_Bump /ConvertedMaps/BloodPl_B_R.tif
+
+newmtl Blood_CSMeshBlood_(5)
+d 1
+Ns 1
+Ni 0
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.98823529 0.98823529 0.98823529
+Km 0.00587156
+map_Kd /Maps/BLOODPL01a.jpg
+map_D /ConvertedMaps/BloodPlOp.tif
+map_Bump /ConvertedMaps/BloodPl_B_R.tif
+
+newmtl Blood_CSMeshBlood_(6)
+d 1
+Ns 1
+Ni 0
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.98823529 0.98823529 0.98823529
+Km 0.00587156
+map_Kd /Maps/BLOODPL01a.jpg
+map_D /ConvertedMaps/BloodPl_B_R.tif
+map_Bump /ConvertedMaps/BloodPl_B_R.tif
+
+newmtl Blood_CSMeshBlood_(7)
+d 1
+Ns 1
+Ni 0
+Ka 0 0 0
+Kd 0.67058825 0.67058825 0.67058825
+Ks 0.8509804 0.8509804 0.8509804
+Km 0.02
+map_Kd /Maps/BLOODPL01a.jpg
+map_D /ConvertedMaps/BloodPl_B_R.tif
+
