@@ -1,0 +1,12 @@
+newmtl Blood
+d 1
+Ns 1
+Ni 0
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.98823529 0.98823529 0.98823529
+Km 0.00587156
+map_Kd /Maps/BLOODPL01a.jpg
+map_D /ConvertedMaps/BloodPlOp.tif
+map_Bump /ConvertedMaps/BloodPl_B_R.tif
+
