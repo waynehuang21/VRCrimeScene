@@ -9426,26 +9426,31 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: c9ee54ef262fa8740b59a31440595e8b, type: 3}
-    m_FontSize: 14
+    m_FontSize: 65
     m_FontStyle: 1
-    m_BestFit: 1
+    m_BestFit: 0
     m_MinSize: 1
     m_MaxSize: 100
-    m_Alignment: 4
+    m_Alignment: 3
     m_AlignByGeometry: 0
     m_RichText: 0
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Instructions
+  m_Text: 'Find and collect evidence
 
-    Instructions
 
-    Instructions
+    Interactable objects are highlighted on hover and some can be picked up with the
+    trigger
 
-    Instructions
 
-    Instructions'
+    Collected evidence can be viewed by clicking the d-pad
+
+
+    Find hidden evidence using the flashlight
+
+
+    Compare evidence and determine which suspect is the killer'
 --- !u!222 &703281654
 CanvasRenderer:
   m_ObjectHideFlags: 0
