@@ -71,6 +71,7 @@
     <Compile Include="Assets\Scripts\MenuCollide.cs" />
     <Compile Include="Assets\Scripts\MenuHandler.cs" />
     <Compile Include="Assets\Scripts\PopupHandler.cs" />
+    <Compile Include="Assets\Scripts\Quit.cs" />
     <Compile Include="Assets\Scripts\Reset.cs" />
     <Compile Include="Assets\Scripts\ScanEvidence.cs" />
     <Compile Include="Assets\Scripts\SelectMenuItem.cs" />
