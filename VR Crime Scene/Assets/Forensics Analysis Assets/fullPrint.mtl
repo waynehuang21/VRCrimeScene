@@ -1,0 +1,11 @@
+newmtl FingerPrint
+d 1
+Ns 1
+Ni 0
+Ka 0 0 0
+Kd 0.5411765 0.26274511 0.26274511
+Ks 0.80392158 0.80392158 0.80392158
+Km 0.02
+map_Kd /Maps/FingerPBloodD.jpg
+map_D /ConvertedMaps/FingerPAlpha.tif
+

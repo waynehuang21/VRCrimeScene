@@ -1,0 +1,11 @@
+newmtl HandPrint
+d 1
+Ns 0.94999999
+Ni 0
+Ka 0.29803923 0.9254902 0.90588236
+Kd 1 1 1
+Ks 0.26666668 0.26666668 0.26666668
+Km 0.02
+map_Kd /Maps/HandPrintLuminolD.jpg
+map_D /ConvertedMaps/HandPrintAlpha2.tif
+
